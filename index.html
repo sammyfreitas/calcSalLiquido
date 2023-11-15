@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora de Salário Líquido com INSS e IRPF</title>
+</head>
+<body>
+
+    <div class="container">
+
+        
+        <div class="outer-container">
+		<h2>Calculadora de Salário Líquido com INSS e IRPF</h2>
+
+        <div class="input-container">
+            <label for="salarioBruto">Salário Bruto:</label>
+            <input type="number" id="salarioBruto" placeholder="Digite o salário bruto" required>
+        </div>
+
+        <div class="input-container">
+            <label for="deducoes">Outras Deduções:</label>
+            <input type="number" id="deducoes" placeholder="Digite outras deduções" required>
+        </div>
+
+        <button onclick="calcularSalarioLiquido()">Calcular</button>
+
+        <div id="result" class="result-container">
+			<div class="labels-container">
+				<label class='resultados'>Salário Bruto: <span id="labelSalarioBruto" class="valor"></span></label>
+				<label class='inss'>INSS: <span id="labelINSSAliquota" class="valor"></span> - <span id="labelINSSValor" class="valor"></span></label>
+				<label class='irpf'>IRPF: <span id="labelIRPFAliquota" class="valor"></span> - <span id="labelIRPFValor" class="valor"></span></label>
+				<label class='deducoes'>Outras Deduções: <span id="labelOutrasDeducoes" class="valor"></span></label>
+				<div class="line-separator"></div>
+				<label class='resultados'>Salário Líquido: <span id="labelSalarioLiquido" class="valor"></span></label>
+			</div>
+		</div>
+    </div>
+	</div>
+
+    <script src="./js/script.js"></script>
+</body>
+<footer>
+    Desenvolvido por <a href="https://github.com/sammyfreitas/portfolioSite" target="_blank">Anthony Freitas</a>, todos os direitos reservados - 2023.
+    </footer>
+
+</html>
