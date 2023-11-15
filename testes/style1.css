@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.result-container span {
+    font-weight: bold;
+    margin-left: 5px;
+}

@@ -10,8 +10,6 @@ body {
 .outer-container {
     background: rgb(31, 31, 31); /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
-	border-radius: 10px; /* Valor do raio do arredondamento */
-    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
 }
 
 .container {
@@ -19,17 +17,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 87vh;
+    height: 100vh;
     background: linear-gradient(to bottom, #4e387e, #2c2045); /* Degrade de roxo */
     padding: 20px;
-	border-radius: 10px; /* Valor do raio do arredondamento */
-    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
 }
 
 .input-container {
     margin-bottom: 15px;
-	border-radius: 10px; /* Valor do raio do arredondamento */
-    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
 	
 }
 
@@ -39,7 +33,6 @@ input {
     box-sizing: border-box;
     font-weight: bold;
     text-align: center;
-	border-radius: 10px; /* Valor do raio do arredondamento */
 }
 
 button {
@@ -64,15 +57,15 @@ button:hover {
     box-sizing: border-box;
     margin-top: 10px;
 	margin-left: 12.5%;
-	border-radius: 10px; /* Valor do raio do arredondamento */
 }
 
 .labels-container {
     border: 1px solid white;
-    padding: 10px;   
+    padding: 10px;
+   
     align-items: center;
     justify-content: center;
-	border-radius: 10px; /* Valor do raio do arredondamento */
+	
 }
 
 label {
@@ -99,20 +92,4 @@ footer {
 
 a:visited {
     color: darkgrey;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-}
-
-.social-icons a {
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
-}
-
-.social-icons a:hover {
-    color: red; /* Ou a cor desejada para o hover */
 }
