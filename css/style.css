@@ -100,3 +100,19 @@ footer {
 a:visited {
     color: darkgrey;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: red; /* Ou a cor desejada para o hover */
+}
