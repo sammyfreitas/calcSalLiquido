@@ -6,3 +6,5 @@ Atualizações futuras:
   VT, 
   VR e 
   Outros
+
+Link: https://sammyfreitas.github.io/calcSalLiquido/
